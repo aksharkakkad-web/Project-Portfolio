@@ -6,4 +6,6 @@ print(salecount)
 print(price)
 print(totalsales)
 mask=salecount>50
+price=price.astype(float)
 price[mask]*=0.9
+print(price)
